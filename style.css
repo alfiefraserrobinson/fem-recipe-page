@@ -1,0 +1,67 @@
+:root {
+  /*COLORS*/
+  /*primary*/
+  --clr-nutmeg: hsl(14, 45%, 36%);
+  --clr-draspberry: hsl(332, 51%, 32%);
+
+  /*neutral*/
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-rosewhite: hsl(330, 100%, 98%);
+  --clr-eggshell: hsl(30, 54%, 90%);
+  --clr-lightgrey: hsl(30, 18%, 87%);
+  --clr-wengebrown: hsl(30, 10%, 34%);
+  --clr-dcharcoal: hsl(24, 5%, 18%);
+
+  /*FONTS*/
+  /*font-family*/
+
+  /*font-sizes*/
+
+  /*font-weights*/
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
